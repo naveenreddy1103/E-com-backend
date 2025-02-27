@@ -28,7 +28,7 @@ app.use('/uploads',express.static('uploads'))
 
 
 
-app.use('/home',(req,res)=>{
+app.use('/',(req,res)=>{
     res.send("<h1>welcome to swiggy</h1>")
 })
 
