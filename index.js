@@ -29,7 +29,7 @@ app.use('/uploads',express.static('uploads'))
 
 
 app.use('/',(req,res)=>{
-    res.send("<h1>welcome to swiggy</h1>")
+    res.send("<h1>welcome to E-commerce Api</h1>")
 })
 
 app.listen(PORT,()=>{
